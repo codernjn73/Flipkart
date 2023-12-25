@@ -107,26 +107,66 @@ body{
     height: 8rem;
 }
 
-.accessories div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 6rem;
-    width: 10rem;
-    margin: 0.5rem;
+.grocery-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
 }
 
+.mobiles-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+.fashion-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.electronics-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.home-furniture-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.appliances-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.travel-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.beauty-toys-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.two-wheelers-image img{
+    height: 5rem;
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.fa-solid{
+    font-size: smaller;
+}
 .accessories-down-angle{
     display: flex;
-    flex-direction: row;
-}
-
-.accessories div img{
-    height: 4rem;
-    width: 4rem;
-}
-
-.home-furniture img{
-    height: 80%;
+    width: 100px;
+    justify-content: space-around;
 }
