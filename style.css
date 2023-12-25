@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #dadada;
+}
+
+.navigation-bar{
+    background-color: #ffffff;
+
+}
+
+.navigation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin: 0 7rem;
+}
+
+/* Flipkart Logo */
+.flipkart-logo img{
+    margin-left: 6rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+/* Search Bar */
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 48rem;
+}
+
+#search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #caf0f8;
+    height: 2.4rem;
+    width: 2.4rem;
+    border-radius: 6px 0 0 6px;
+    font-size: larger;
+}
+
+.search-bar input{
+    background-color: #caf0f8;
+    height: 2.4rem;
+    width: 100%;
+    font-size: 1rem;
+    border: 0px solid #caf0f8;
+    border-radius: 0 6px 6px 0;
+    outline: none;
+}
+
+/* Account section */
+.account{
+    display: flex;
+    border: 1px solid black hidden;
+    border-radius: 6px;
+    height: 2.4rem;
+    width: 6.7rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}
+
+.cart{
+    display: flex;
+    height: 2.4rem;
+    width: 4rem;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+.seller-account{
+    display: flex;
+    height: 2.4rem;
+    width: 9rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+
+.drop-down-help{
+    display: flex;
+    margin-right: 6rem;
+    height: 2.4rem;
+    width: 2.4rem;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black hidden;
+    border-radius: 6px;
+}
+
+/* Accessories */
+.accessories{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    margin: 0.5rem 10rem;
+    height: 8rem;
+}
+
+.accessories div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 10rem;
+    margin: 0.5rem;
+}
+
+.accessories-down-angle{
+    display: flex;
+    flex-direction: row;
+}
+
+.accessories div img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.home-furniture img{
+    height: 80%;
+}
